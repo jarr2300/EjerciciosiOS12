@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_4_Piano" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGy-pe-VDO">
+                                <rect key="frame" x="16" y="28" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvA-1w-XE0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSE-dR-Xq3">
+                                <rect key="frame" x="16" y="108" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzG-dq-tzP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkk-gO-pXz">
+                                <rect key="frame" x="16" y="267.5" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3i2-eG-Xcu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOr-hZ-HdS">
+                                <rect key="frame" x="16" y="587" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XVB-6H-129"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jo-I8-LTH">
+                                <rect key="frame" x="16" y="507.5" width="343" height="71.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dhc-lE-X4S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1J-gP-RaN">
+                                <rect key="frame" x="16" y="188" width="343" height="71.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBn-KG-hFP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhB-P0-V5b">
+                                <rect key="frame" x="16" y="427.5" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a5X-36-Urq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8R-yp-c2Z">
+                                <rect key="frame" x="16" y="347.5" width="343" height="72"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hc-NJ-tms"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bf9-0E-EOj">
+                                <rect key="frame" x="136" y="82" width="223" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cie-pS-or4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5EL-iE-g5o">
+                                <rect key="frame" x="136" y="322.5" width="223" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQo-ip-jfd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpE-Jb-vSK">
+                                <rect key="frame" x="136" y="481.5" width="223" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5q-mH-Raj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIa-Bu-3Z1">
+                                <rect key="frame" x="136" y="162.5" width="223" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0sE-gn-00U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEy-7e-mqL">
+                                <rect key="frame" x="136" y="403.5" width="223" height="43"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="039-sW-UXJ"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ERa-bX-kD6">
+                                <rect key="frame" x="197" y="169" width="290" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="T32-H2-RHb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="286" id="mXH-Ub-iXO"/>
+                                    <constraint firstAttribute="width" constant="286" id="nm6-IM-Qx2"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="actionSliderVolumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="jMk-ET-Dpt"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uSE-dR-Xq3" secondAttribute="trailing" constant="16" id="1Nc-eV-LHs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bf9-0E-EOj" secondAttribute="trailing" constant="16" id="1TC-X3-Oy4"/>
+                            <constraint firstItem="YGy-pe-VDO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2B4-Nx-RBT"/>
+                            <constraint firstItem="uSE-dR-Xq3" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="3eZ-dN-Q5u"/>
+                            <constraint firstItem="hhB-P0-V5b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5ic-eu-ZT3"/>
+                            <constraint firstItem="FpE-Jb-vSK" firstAttribute="height" secondItem="bf9-0E-EOj" secondAttribute="height" id="7N4-kc-7IW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bf9-0E-EOj" secondAttribute="trailing" constant="16" id="7rR-ht-g0r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YGy-pe-VDO" secondAttribute="trailing" constant="16" id="9aN-n5-3It"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eEy-7e-mqL" secondAttribute="trailing" constant="16" id="9hT-Ew-W0B"/>
+                            <constraint firstItem="6Jo-I8-LTH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AiS-qH-T5q"/>
+                            <constraint firstItem="eEy-7e-mqL" firstAttribute="height" secondItem="bf9-0E-EOj" secondAttribute="height" id="CLu-X8-HAM"/>
+                            <constraint firstItem="bf9-0E-EOj" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" multiplier="0.6" id="Cg3-2I-hLL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UIa-Bu-3Z1" secondAttribute="trailing" constant="16" id="EZg-9d-CvI"/>
+                            <constraint firstItem="hhB-P0-V5b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Erd-Gb-2xS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Jo-I8-LTH" secondAttribute="trailing" constant="16" id="FjI-Ya-Sya"/>
+                            <constraint firstItem="LOr-hZ-HdS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GTS-sS-wOi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FpE-Jb-vSK" secondAttribute="trailing" constant="16" id="GdM-bO-YkG"/>
+                            <constraint firstItem="hhB-P0-V5b" firstAttribute="top" secondItem="5EL-iE-g5o" secondAttribute="bottom" constant="62" id="HQR-uu-sZC"/>
+                            <constraint firstItem="YGy-pe-VDO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JKa-XD-Ec7"/>
+                            <constraint firstItem="Bkk-gO-pXz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JzC-Xr-yCD"/>
+                            <constraint firstItem="h8R-yp-c2Z" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="Kf1-2z-wss"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5EL-iE-g5o" secondAttribute="trailing" constant="16" id="NXR-8L-UBr"/>
+                            <constraint firstItem="LOr-hZ-HdS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NnY-Mh-dMm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LOr-hZ-HdS" secondAttribute="trailing" constant="16" id="O7D-gC-4aI"/>
+                            <constraint firstItem="v1J-gP-RaN" firstAttribute="top" secondItem="uSE-dR-Xq3" secondAttribute="bottom" constant="8" id="OoX-pi-rZM"/>
+                            <constraint firstItem="FpE-Jb-vSK" firstAttribute="width" secondItem="bf9-0E-EOj" secondAttribute="width" id="PSE-Ac-XVR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhB-P0-V5b" secondAttribute="trailing" constant="16" id="Q4s-Me-8TG"/>
+                            <constraint firstItem="uSE-dR-Xq3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QvA-87-obW"/>
+                            <constraint firstItem="6Jo-I8-LTH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SFV-eu-mYB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bf9-0E-EOj" secondAttribute="trailing" constant="16" id="SRo-dG-CBh"/>
+                            <constraint firstAttribute="trailing" secondItem="ERa-bX-kD6" secondAttribute="trailing" constant="-110" id="TzT-RK-06u"/>
+                            <constraint firstItem="hhB-P0-V5b" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="VBz-pc-oBa"/>
+                            <constraint firstItem="uSE-dR-Xq3" firstAttribute="top" secondItem="YGy-pe-VDO" secondAttribute="bottom" constant="8" id="WSo-ky-5PU"/>
+                            <constraint firstItem="UIa-Bu-3Z1" firstAttribute="width" secondItem="bf9-0E-EOj" secondAttribute="width" id="YP8-2p-swD"/>
+                            <constraint firstItem="5EL-iE-g5o" firstAttribute="width" secondItem="bf9-0E-EOj" secondAttribute="width" id="Zcv-PO-WB3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eEy-7e-mqL" secondAttribute="trailing" constant="16" id="Zek-VH-yap"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h8R-yp-c2Z" secondAttribute="trailing" constant="16" id="agK-nE-07y"/>
+                            <constraint firstItem="6Jo-I8-LTH" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="cQx-z9-lBM"/>
+                            <constraint firstItem="FpE-Jb-vSK" firstAttribute="top" secondItem="eEy-7e-mqL" secondAttribute="bottom" constant="35" id="cuE-Py-HEU"/>
+                            <constraint firstItem="LOr-hZ-HdS" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="d9N-sA-fNn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bkk-gO-pXz" secondAttribute="trailing" constant="16" id="eSX-Vn-spt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LOr-hZ-HdS" secondAttribute="bottom" constant="8" id="gDk-Gt-fcp"/>
+                            <constraint firstItem="UIa-Bu-3Z1" firstAttribute="height" secondItem="bf9-0E-EOj" secondAttribute="height" id="glt-E0-J10"/>
+                            <constraint firstItem="eEy-7e-mqL" firstAttribute="width" secondItem="bf9-0E-EOj" secondAttribute="width" id="h6a-BP-zUC"/>
+                            <constraint firstItem="FpE-Jb-vSK" firstAttribute="top" secondItem="h8R-yp-c2Z" secondAttribute="bottom" constant="62" id="hGb-pf-gay"/>
+                            <constraint firstItem="LOr-hZ-HdS" firstAttribute="top" secondItem="6Jo-I8-LTH" secondAttribute="bottom" constant="8" id="htd-bg-fVT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5EL-iE-g5o" secondAttribute="trailing" constant="16" id="i04-84-1Na"/>
+                            <constraint firstItem="uSE-dR-Xq3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iQa-9r-lm9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UIa-Bu-3Z1" secondAttribute="trailing" constant="16" id="joq-S3-mFf"/>
+                            <constraint firstItem="bf9-0E-EOj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="lOy-Aq-VeV"/>
+                            <constraint firstItem="Bkk-gO-pXz" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="lrX-uJ-ofA"/>
+                            <constraint firstItem="6Jo-I8-LTH" firstAttribute="top" secondItem="hhB-P0-V5b" secondAttribute="bottom" constant="8" id="mBy-KJ-17O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v1J-gP-RaN" secondAttribute="trailing" constant="16" id="nMQ-uX-Gij"/>
+                            <constraint firstItem="v1J-gP-RaN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nqS-UJ-PBF"/>
+                            <constraint firstItem="hhB-P0-V5b" firstAttribute="top" secondItem="h8R-yp-c2Z" secondAttribute="bottom" constant="8" id="oTC-lg-goX"/>
+                            <constraint firstItem="h8R-yp-c2Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pds-lu-CWZ"/>
+                            <constraint firstItem="v1J-gP-RaN" firstAttribute="height" secondItem="YGy-pe-VDO" secondAttribute="height" id="qIl-Bf-FUn"/>
+                            <constraint firstItem="Bkk-gO-pXz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qJH-FU-XMp"/>
+                            <constraint firstItem="Bkk-gO-pXz" firstAttribute="top" secondItem="UIa-Bu-3Z1" secondAttribute="bottom" constant="62" id="u2u-hM-aPI"/>
+                            <constraint firstItem="Bkk-gO-pXz" firstAttribute="top" secondItem="v1J-gP-RaN" secondAttribute="bottom" constant="8" id="uOk-Nn-QBr"/>
+                            <constraint firstItem="h8R-yp-c2Z" firstAttribute="top" secondItem="Bkk-gO-pXz" secondAttribute="bottom" constant="8" id="upx-4j-NU4"/>
+                            <constraint firstItem="ERa-bX-kD6" firstAttribute="centerY" secondItem="UIa-Bu-3Z1" secondAttribute="centerY" id="voh-QZ-0ah"/>
+                            <constraint firstItem="h8R-yp-c2Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="w49-PP-1Ku"/>
+                            <constraint firstItem="bf9-0E-EOj" firstAttribute="width" secondItem="YGy-pe-VDO" secondAttribute="width" multiplier="0.65" id="x15-Tw-dZI"/>
+                            <constraint firstItem="5EL-iE-g5o" firstAttribute="height" secondItem="bf9-0E-EOj" secondAttribute="height" id="xjE-L8-XRT"/>
+                            <constraint firstItem="v1J-gP-RaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="y54-Kw-ncY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FpE-Jb-vSK" secondAttribute="trailing" constant="16" id="y7g-sG-kyl"/>
+                            <constraint firstItem="YGy-pe-VDO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="zWM-WC-Y55"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="sliderVolumen" destination="ERa-bX-kD6" id="GrN-1G-XKw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>
