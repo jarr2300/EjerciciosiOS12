@@ -82,7 +82,7 @@ del Imperio Galáctico
             let  action3 = UIAlertAction (title: "Me lo pienso", style: .cancel) { (action3) in
                 self.etiquetaMensajes.text = "Eres peor que\n la escoria rebelde,\neres una rata cobarde"
                 //self.botonDescubrelo.setTitle("Pulsa aquí rata cobarde", for: UIControl.State.normal)
-                self.onoff = true
+                self.onoff = true //Test Git
             }
             
             controller.addAction(action3)
